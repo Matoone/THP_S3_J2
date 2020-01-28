@@ -20,5 +20,3 @@ while player1.life_points > 0 || player.life_points > 0
   player1.attacks(player2)
   puts ("")
 end
-
-binding.pry

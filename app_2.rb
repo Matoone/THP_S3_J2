@@ -87,4 +87,3 @@ end
 puts "Le combat est terminé! Bye bye!"
 gets.chomp
 
-binding.pry
