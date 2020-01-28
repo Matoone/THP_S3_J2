@@ -1,4 +1,4 @@
-# Project Title
+# Ils veulent ma POO !
 
 This project presents the achievement of a simple, yet violent game realised with THP.
 

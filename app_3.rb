@@ -34,8 +34,7 @@ end
 
 player_name = welcome_message
 my_game = Game.new(player_name)
-
-while my_game.is_still_ongoing?
+while my_game.is_still_ongoing? #gamecycle loop
   my_game.show_players
   gets.chomp
   my_game.new_players_in_sight
@@ -46,6 +45,5 @@ while my_game.is_still_ongoing?
   gets.chomp
   my_game.enemies_attack
   my_game.turn_end_actions
-  
 end
 my_game.display_end_game
